@@ -22,3 +22,16 @@ CREATE TABLE public.employee
     PRIMARY KEY (emp_no)
 );
 ![image](https://github.com/nwhipple/sql-challenge/assets/66106887/ed05acf8-0d8b-4866-9d01-53db47a31c7d)
+
+I copied this syntax from here and built off of it for q2: https://stackoverflow.com/questions/56102027/how-to-select-year-using-a-where-clause-on-a-datetime-type-column
+SELECT *
+       FROM sales
+       WHERE sales_date >= '2013-01-01'
+             AND sales_date < '2014-01-01';
+
+I used query structures as described in this article: https://www.techrepublic.com/article/sql-basics-query-multiple-tables/ for question 3
+
+In question 8 I took count, group by, and order by concepts from the following websites:
+https://www.w3resource.com/sql/aggregate-functions/sum-with-group-by.php
+https://www.w3schools.com/sql/sql_ref_order_by.asp#:~:text=The%20ORDER%20BY%20command%20sorts,order%2C%20use%20the%20DESC%20keyword.
+https://www.w3schools.com/sql/sql_count.asp
