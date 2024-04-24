@@ -35,3 +35,5 @@ In question 8 I took count, group by, and order by concepts from the following w
 https://www.w3resource.com/sql/aggregate-functions/sum-with-group-by.php
 https://www.w3schools.com/sql/sql_ref_order_by.asp#:~:text=The%20ORDER%20BY%20command%20sorts,order%2C%20use%20the%20DESC%20keyword.
 https://www.w3schools.com/sql/sql_count.asp
+
+The TA helped correct some of my data types in my entity relationahip diagram
